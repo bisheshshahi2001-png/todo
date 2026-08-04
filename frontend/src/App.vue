@@ -116,7 +116,7 @@
 import { ref, onMounted } from "vue";
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000/todos";
+const API = `${import.meta.env.VITE_API_URL}/todos`;
 
 const todos = ref([]);
 const newTodo = ref("");
