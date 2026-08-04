@@ -116,7 +116,7 @@
 import { ref, onMounted } from "vue";
 import axios from "axios";
 
-const API = `${import.meta.env.VITE_API_URL}/todos`;
+const API = "https://todo-production-162b.up.railway.app/todos";
 
 const todos = ref([]);
 const newTodo = ref("");
